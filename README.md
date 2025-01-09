@@ -1,4 +1,4 @@
-# <img width="26px" src="github/images.png" alt="Sonarr"></img> Box Drive: Simplify Cloud File Access
+# <img width="26px" src="github/images.png" alt="Sonarr"></img> Box Drive
 
 <p align="center">
   <a href="https://www.box.com/">
