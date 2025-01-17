@@ -1,13 +1,5 @@
 # <img width="29px" src="github/images.png" alt="Sonarr"></img> Box Drive
 
-<p align="center">
-  <a href="https://www.box.com/">
-    <img src="github/1-hero-fg-box-drive.png">
-  </a>
-</p>
-
-
-
 
 | Jump to: | [Windows](https://github.com/Box-Sync/Box-Drive#Windows) | [MacOS](https://github.com/Box-Sync/Box-Drive#MacOS) | [Linux](https://www.box.com/resources/downloads) | [Other platforms](https://www.box.com/resources/downloads) |  
 | :--- | :---: | :---: | :---: | :---: |
